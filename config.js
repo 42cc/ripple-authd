@@ -20,7 +20,7 @@ exports.rsa = require('./rsa.json');
  *
  * exports.allowedOriginDomains = ['*'];
  */
-//exports.allowedOriginDomains = ['ripple.com'];
+exports.allowedOriginDomains = ['*'];
 
 /**
  * Whether to allow subdomains of the above.

@@ -52,7 +52,7 @@ function doCors(req, res)
 exports.cors = function(req, res, next)
 {
   doCors(req, res);
-  res.end();
+  res.send('GET');
 };
 
 exports.sign = function(req, res, next)
